@@ -1,0 +1,209 @@
+{
+    "author": "malf",
+    "towerInfo": [
+        {
+            "name": "Evil Eyes",
+            "type": "Archer",
+            "subTowers": [
+                {
+                    "level": 0,
+                    "coins": 110,
+                    "ui": {
+                        "url": "http://127.0.0.1:5173/src/assets/mushroomtower.gif"
+                    },
+                    "soldierAccout": 2,
+                    "solderName": "ss",
+                    "damage": "17",
+                    "attackType": "AD",
+                    "attackTime": 600,
+                    "attackRange": 70
+                },
+                {
+                    "level": 1,
+                    "coins": 170,
+                    "ui": {
+                        "url": "http://127.0.0.1:5173/src/assets/mushroomtower.gif"
+                    },
+                    "soldierAccout": 1,
+                    "solderName": "ss",
+                    "damage": "30",
+                    "attackType": "AD",
+                    "attackTime": 400,
+                    "attackRange": 90
+                }
+            ]
+        }
+    ],
+    "soldierInfo": [
+        {
+            "name": "ss",
+            "APdefence": -1,
+            "ADdefence": -1
+        }
+    ],
+    "mapInfo": {
+        "width": 400,
+        "height": 300,
+        "towerPosition": [
+            [
+                100,
+                140
+            ],
+            [
+                200,
+                140
+            ],
+            [
+                300,
+                260
+            ],
+            [
+                360,
+                100
+            ]
+        ],
+        "paths": [
+            [
+                [
+                    -36,
+                    200
+                ],
+                [
+                    300,
+                    200
+                ],
+                [
+                    300,
+                    -36
+                ]
+            ]
+        ]
+    },
+    "villainInfo": [
+        {
+            "ui": {
+                "url": "http://127.0.0.1:5173/src/assets/EROSION.gif"
+            },
+            "name": "EROSION",
+            "damage": 7,
+            "attackType": "AP",
+            "attackTime": 1000,
+            "attackRange": 5,
+            "max_hp": 50,
+            "speed": 30,
+            "ADdefence": 3,
+            "APdefence": 0,
+            "reward": 18
+        },
+        {
+            "ui": {
+                "url": "http://127.0.0.1:5173/src/assets/wolf.gif"
+            },
+            "name": "WOLF",
+            "damage": 12,
+            "attackType": "AD",
+            "attackTime": 60,
+            "attackRange": 5,
+            "max_hp": 40,
+            "speed": 50,
+            "ADdefence": 3,
+            "APdefence": 0,
+            "reward": 24
+        }
+    ],
+    "heroInfo": [],
+    "plotInfo": [
+        {
+            "index": 0,
+            "id": "mission1",
+            "keyframes": [
+                {
+                    "timestamp": 0,
+                    "action": "START"
+                },
+                {
+                    "timestamp": 1,
+                    "action": "SEND",
+                    "path": 0,
+                    "villain": {
+                        "name": "EROSION",
+                        "account": 1
+                    }
+                },
+                {
+                    "timestamp": 1,
+                    "action": "SEND",
+                    "path": 0,
+                    "villain": {
+                        "name": "WOLF",
+                        "account": 1
+                    }
+                },
+                {
+                    "timestamp": 10,
+                    "action": "SEND",
+                    "path": 0,
+                    "villain": {
+                        "name": "EROSION",
+                        "account": 3
+                    }
+                },
+                {
+                    "timestamp": 14,
+                    "action": "SEND",
+                    "path": 0,
+                    "villain": {
+                        "name": "WOLF",
+                        "account": 2
+                    }
+                },
+                {
+                    "timestamp": 15,
+                    "action": "END"
+                }
+            ]
+        },
+        {
+            "index": 1,
+            "id": "mission2",
+            "keyframes": [
+                {
+                    "timestamp": 0,
+                    "path": 0,
+                    "action": "START"
+                },
+                {
+                    "timestamp":1,
+                    "action": "SEND",
+                    "path": 0,
+                    "villain": {
+                        "name": "EROSION",
+                        "account": 2
+                    }
+                },
+                {
+                    "timestamp": 7,
+                    "action": "SEND",
+                    "path": 0,
+                    "villain": {
+                        "name": "EROSION",
+                        "account": 4
+                    }
+                },
+                {
+                    "timestamp": 17,
+                    "action": "SEND",
+                    "path": 0,
+                    "villain": {
+                        "name": "EROSION",
+                        "account": 1
+                    }
+                },
+                {
+                    "timestamp": 18,
+                    "action": "END"
+                }
+            ]
+        }
+    ]
+}
