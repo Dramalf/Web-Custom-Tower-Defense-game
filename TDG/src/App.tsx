@@ -6,6 +6,7 @@ function App() {
   useEffect(() => {
     const dom = document.getElementById('sandbox') as HTMLElement;
     const engine = new TDEngine({ dom })
+    //@ts-ignore
     engine.load(demo)
     const startBtn = document.getElementById('startBtn')!;
     startBtn.onclick = engine.begin
