@@ -9,7 +9,7 @@
                     "level": 0,
                     "coins": 110,
                     "ui": {
-                        "url": "http://127.0.0.1:5173/src/assets/mushroomtower.gif"
+                        "url": "/mushroomtower.gif"
                     },
                     "soldierAccout": 2,
                     "solderName": "ss",
@@ -22,7 +22,7 @@
                     "level": 1,
                     "coins": 170,
                     "ui": {
-                        "url": "http://127.0.0.1:5173/src/assets/mushroomtower.gif"
+                        "url": "/mushroomtower.gif"
                     },
                     "soldierAccout": 1,
                     "solderName": "ss",
@@ -82,7 +82,7 @@
     "villainInfo": [
         {
             "ui": {
-                "url": "http://127.0.0.1:5173/src/assets/EROSION.gif"
+                "url": "/EROSION.gif"
             },
             "name": "EROSION",
             "damage": 7,
@@ -97,7 +97,7 @@
         },
         {
             "ui": {
-                "url": "http://127.0.0.1:5173/src/assets/wolf.gif"
+                "url": "/wolf.gif"
             },
             "name": "WOLF",
             "damage": 12,

@@ -102,7 +102,7 @@ export default class Core {
         const _scene = this.scene as Application;
         const { mapInfo } = this.assets;
         const { paths, towerPosition } = mapInfo as MapInfo;
-        const bgurl='http://127.0.0.1:5173/src/assets/bg.png'
+        const bgurl='/bg.png'
         const bgpic=await Sprite.from(bgurl);
         console.log(bgpic)
         bgpic.width=400;

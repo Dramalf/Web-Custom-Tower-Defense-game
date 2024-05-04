@@ -52,7 +52,7 @@ export default class TowerLand {
     const container = this.node;
     const key = this.key;
     const towerInfo = this.towerInfo;
-    const emptyLand = await Sprite.from("http://127.0.0.1:5173/src/assets/emptyLand.png")
+    const emptyLand = await Sprite.from("/emptyLand.png")
     emptyLand.anchor.x=0.5;
     emptyLand.anchor.y=0.5;
     container.on('click', async () => {

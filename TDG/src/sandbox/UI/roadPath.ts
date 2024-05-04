@@ -4,7 +4,7 @@ import { Path } from "../../types/config/map";
 export default class RoadPath{
     node:Graphics
     constructor(path:Path){
-        const texture = Texture.from('http://127.0.0.1:5173/src/assets/road.png');
+        const texture = Texture.from('/road.png');
 
         let line = new Graphics();
         line.lineTextureStyle({

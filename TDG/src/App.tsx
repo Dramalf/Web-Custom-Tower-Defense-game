@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import TDEngine from './sandbox/TDEngine'
 import './App.css'
+console.log(import.meta)
 import demo from './assets/mock/demo.json'
 function App() {
   useEffect(() => {
